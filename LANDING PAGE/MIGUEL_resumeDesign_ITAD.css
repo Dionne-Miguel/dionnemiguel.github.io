@@ -1,0 +1,96 @@
+body{
+	background-color:#faebd7;
+	font-family:Verdana, Tahoma, Sans-serif;
+	color:#08060f;
+	font-size:1.5em;
+	
+}
+.profile {
+    text-align: center;
+}
+
+p{
+	text-align:justify;
+	font-size:20px;
+	text-indent:75px;
+	line-height:30px;
+	word-spacing:9px;
+}
+	
+h1{
+	text-align:center;
+	font-family:Pacifico,'Bookman Old Style',Serif;
+	font-size:3em;
+	background-color:#4a338a;
+	color:white;
+	text-transform:uppercase;
+	word-spacing:30px;
+	text-shadow: 5px 5px 8px black;
+}
+h2{
+	text-align:center;
+}
+
+h4{
+	font-variant:small-caps;
+	font-weight:1000px;
+	text-shadow:5px 10px 8px yellow;
+}
+
+
+ol{
+	list-style-type: upper-alpha;
+}
+ol li{
+		background: #a29ded;
+		padding: 5px;
+		margin: 35px;
+		list-style-position:inside;
+		
+}
+ul.primary li{
+	background-color:#faebd7;
+	list-style-type: square;
+	list-style-position:inside;
+}
+
+ul.pyear li{
+	background-color:#faebd7;
+	list-style-type: square;
+	list-style-position:inside;
+}
+ul.secondary li{
+	background-color:#faebd7;
+	list-style-type: square;
+	list-style-position:inside;
+}
+ul.syear li{
+	background-color:#faebd7;
+	list-style-type: square;
+	list-style-position:inside;
+}
+ul.tertiary li{
+	background-color:#faebd7;
+	list-style-type: square;
+	list-style-position:inside;
+}
+ul.tyear li{
+	background-color:#faebd7;
+	list-style-type: square;
+	list-style-position:inside;
+}
+ul.attend li{
+	background-color:#faebd7;
+	list-style-type: square;
+	list-style-position:inside;
+}
+ul.skills li{
+	background-color:#faebd7;
+	list-style-type: square;
+	list-style-position:inside;
+}
+ul.interest li{
+	background-color:#faebd7;
+	list-style-type: square;
+	list-style-position:inside;
+}
