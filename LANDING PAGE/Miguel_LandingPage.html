@@ -21,29 +21,63 @@
 		text-shadow: 5px 5px 8px black;
 	}
 	
-	a{
+	.main{
 		color:white;
 		text-decoration:none;
 		font-family:Verdana,"Sans Serif";
 		background-color:#7da8c7;
 		padding:1em 1.5em;
 	}
-	a:hover{
+	.main:hover{
 		background-color:#9dbdd4;
 		color:black;
 	}
-	a:focus
+	.main:focus
 	{
 		background-color:#6c7880;
 		color:white;
 		border:3px outset #89cff0;
 	}
-	a:active
+	.main:active
 	{
 		background-color:#4d95c9;
 		color:white;
 		font-style:italic;
 	}
+
+	.photo{
+		color:blue;
+		text-decoration:none;
+		font-family:Verdana,"Sans Serif";
+		background-color:#faebd7;
+	}
+	.photo:hover{
+		background-color:#faebd7;
+		color:black;
+	}
+	.photo:focus
+	{
+		background-color:#faebd7;
+		color:black;
+	}
+	.photo:active
+	{
+		background-color:#faebd7;
+		color:black;
+	}
+	img{
+		width: 300px;
+		height:300px;
+	}
+	img:hover{
+		opacity:.75px;
+		background-color:black;
+	}
+	.gallery{
+		border: 10px double black;
+		border-radius:25px;
+	}
+
     </style>
 </head>
 <body id="top">
@@ -62,12 +96,17 @@
 		</div>
 		<br>
 		<h5>Wanna know more about me? click my About Me Page.</h5>
-		<a href="MIGUEL_BIO.html" target="sameWindow" title="About Me">
+		<a href="MIGUEL_BIO.html" target="sameWindow" title="About Me" class="main">
 		About Me Page</a>
 		<br><br><br><br>
 		<hr>
+		<br>
+		<a href="#photogallery" target="sameWindow" title="Photo Gallery" class="main">
+		Photo Gallery</a>
+		<br><br><br><br>
+		<hr>
 		<h5>Get in contact with me professionally here.</h5>
-		<a href="MIGUEL_RESUME.html" target="sameWindow" title="Resume">
+		<a href="MIGUEL_RESUME.html" target="sameWindow" title="Resume" class="main">
 		My Resume Page</a>
 		<br><br><br><br>
 		<hr>
@@ -76,7 +115,7 @@
 		talking about click the link below.</p>
 		<br>
 		<div align="middle">
-		<a href="MIGUEL_Beats.html" target="sameWindow" title="My Beat">
+		<a href="MIGUEL_Beats.html" target="sameWindow" title="My Beat" class="main">
 		My Beats</a>
 		<br><br><br><br>
 		<hr>
@@ -84,8 +123,67 @@
 		<p>&nbsp;&nbsp;&nbsp;&nbsp;If you are a fan of Marvel Cinematic Universe, Anime and Adult Swim, Well we could be partners because those are one of my
 		favorite movies or TV shows to watch. Things like adventure, comedy, psychological and a little bit of romance is right up my alley.</p>
 		<br>
-		<a href="MIGUEL_Movie.html" target="sameWindow" title="My Kind of Film">
+		<a href="MIGUEL_Movie.html" target="sameWindow" title="My Kind of Film" class="main">
 		My Kind of Films</a>
+		<br><br><br><br>
+	
+		<h2 id = "photogallery">PHOTO GALLERY</h2>
+		<hr>
+		<h3><a href="#familypic" class = "photo" title="Family Picture">Family Picture</a></h3>
+		<hr>
+		<h3><a href="#friends" class = "photo" title="Friends picture">Picture of my friends</a></h3>
+		<hr>
+		<h3><a href="#artwork" class = "photo" title="Artworks">Picture of my Artworks</a></h3>
+		<hr>
+		<h3><a href="#album" class = "photo" title="Album Cover">Album Covers</a></h3>
+		<hr>
+		<h3><a href="#filmposter" class = "photo" title="Film posters">Film Posters</a></h3>
+		<hr>
+		<br><br><br><br>
+		<h5 id = "familypic">Family Picture:</h5>
+		<a href ="Photogallery/family1.jpg" target="WinImage"><img src = "Photogallery/family1.jpg" alt="Family Picture 1" title= "Family Picture 1" class="gallery"></a>
+		<a href ="Photogallery/family2.jpg" target="WinImage"><img src = "Photogallery/family2.jpg" alt="Family Picture 2" title= "Family Picture 2" class="gallery"></a>
+		<a href ="Photogallery/family3.jpg" target="WinImage"><img src = "Photogallery/family3.jpg" alt="Family Picture 3" title= "Family Picture 3" class="gallery"></a>
+		<a href ="Photogallery/family4.jpg" target="WinImage"><img src = "Photogallery/family4.jpg" alt="Family Picture 4" title= "Family Picture 4" class="gallery"></a>
+		<a href ="Photogallery/family5.jpg" target="WinImage"><img src = "Photogallery/family5.jpg" alt="Family Picture 5" title= "Family Picture 5" class="gallery"></a>
+		<a href ="Photogallery/family6.jpg" target="WinImage"><img src = "Photogallery/family6.jpg" alt="Family Picture 6" title= "Family Picture 6" class="gallery"></a>
+		<a href ="Photogallery/family7.jpg" target="WinImage"><img src = "Photogallery/family7.jpg" alt="Family Picture 7" title= "Family Picture 7" class="gallery"></a>
+		<br><br><br><br>
+		<h5 id = "friends">My Friends:</h5>
+		<a href ="Photogallery/friends1.jpg" target="WinImage"><img src = "Photogallery/friends1.jpg" alt="Friends Picture 1" title= "Friends Picture 1" class="gallery"></a>
+		<a href ="Photogallery/friends2.jpg" target="WinImage"><img src = "Photogallery/friends2.jpg" alt="Friends Picture 2" title= "Friends Picture 2" class="gallery"></a>
+		<a href ="Photogallery/friends3.jpg" target="WinImage"><img src = "Photogallery/friends3.jpg" alt="Friends Picture 3" title= "Friends Picture 3" class="gallery"></a>
+		<a href ="Photogallery/friends4.jpg" target="WinImage"><img src = "Photogallery/friends4.jpg" alt="Friends Picture 4" title= "Friends Picture 4" class="gallery"></a>
+		<a href ="Photogallery/friends5.jpg" target="WinImage"><img src = "Photogallery/friends5.jpg" alt="Friends Picture 5" title= "Friends Picture 5" class="gallery"></a>
+		<a href ="Photogallery/friends6.jpg" target="WinImage"><img src = "Photogallery/friends6.jpg" alt="Friends Picture 6" title= "Friends Picture 6" class="gallery"></a>
+		<a href ="Photogallery/friends7.jpg" target="WinImage"><img src = "Photogallery/friends7.jpg" alt="Friends Picture 7" title= "Friends Picture 7" class="gallery"></a>
+		<br><br><br><br>
+		<h5 id = "artwork">My Artworks:</h5>
+		<a href ="Photogallery/art1.jpg" target="WinImage"><img src = "Photogallery/art1.jpg" alt="Artwork 1" title= "Artwork 1" class="gallery"></a>
+		<a href ="Photogallery/art2.jpg" target="WinImage"><img src = "Photogallery/art2.jpg" alt="Artwork 2" title= "Artwork 2" class="gallery"></a>
+		<a href ="Photogallery/art3.jpg" target="WinImage"><img src = "Photogallery/art3.jpg" alt="Artwork 3" title= "Artwork 3" class="gallery"></a>
+		<a href ="Photogallery/art4.jpg" target="WinImage"><img src = "Photogallery/art4.jpg" alt="Artwork 4" title= "Artwork 4" class="gallery"></a>
+		<a href ="Photogallery/art5.jpg" target="WinImage"><img src = "Photogallery/art5.jpg" alt="Artwork 5" title= "Artwork 5" class="gallery"></a>
+		<a href ="Photogallery/art6.jpg" target="WinImage"><img src = "Photogallery/art6.jpg" alt="Artwork 6" title= "Artwork 6" class="gallery"></a>
+		<a href ="Photogallery/art7.jpg" target="WinImage"><img src = "Photogallery/art7.jpg" alt="Artwork 7" title= "Artwork 7" class="gallery"></a>
+		<br><br><br><br>
+		<h5 id = "album">Album covers of my favorite songs:</h5>
+		<a href ="Photogallery/album1.jfif" target="WinImage"><img src = "Photogallery/album1.jfif" alt="Album 1" title= "Album 1" class="gallery"></a>
+		<a href ="Photogallery/album2.jpg" target="WinImage"><img src = "Photogallery/album2.jpg" alt="Album 2" title= "Album 2" class="gallery"></a>
+		<a href ="Photogallery/album3.jpg" target="WinImage"><img src = "Photogallery/album3.jpg" alt="Album 3" title= "Album 3" class="gallery"></a>
+		<a href ="Photogallery/album4.jfif" target="WinImage"><img src = "Photogallery/album4.jfif" alt="Album 4" title= "Album 4" class="gallery"></a>
+		<a href ="Photogallery/album5.jpg" target="WinImage"><img src = "Photogallery/album5.jpg" alt="Album 5" title= "Album 5" class="gallery"></a>
+		<a href ="Photogallery/album6.jpg" target="WinImage"><img src = "Photogallery/album6.jpg" alt="Album 6" title= "Album 6" class="gallery"></a>
+		<a href ="Photogallery/album7.jfif" target="WinImage"><img src = "Photogallery/album7.jfif" alt="Album 7" title= "Album 7" class="gallery"></a>
+		<br><br><br><br>
+		<h5 id = "filmposter">Posters of my favorite films:</h5>
+		<a href ="Photogallery/film1.jpg" target="WinImage"><img src = "Photogallery/film1.jpg" alt="film 1" title= "film 1" class="gallery"></a>
+		<a href ="Photogallery/film2.jpg" target="WinImage"><img src = "Photogallery/film2.jpg" alt="film 2" title= "film 2" class="gallery"></a>
+		<a href ="Photogallery/film3.jpg" target="WinImage"><img src = "Photogallery/film3.jpg" alt="film 3" title= "film 3" class="gallery"></a>
+		<a href ="Photogallery/film4.jpg" target="WinImage"><img src = "Photogallery/film4.jpg" alt="film 4" title= "film 4" class="gallery"></a>
+		<a href ="Photogallery/film5.jpg" target="WinImage"><img src = "Photogallery/film5.jpg" alt="film 5" title= "film 5" class="gallery"></a>
+		<a href ="Photogallery/film6.jpg" target="WinImage"><img src = "Photogallery/film6.jpg" alt="film 6" title= "film 6" class="gallery"></a>
+		<a href ="Photogallery/film7.jpg" target="WinImage"><img src = "Photogallery/film7.jpg" alt="film 7" title= "film 7" class="gallery"></a>
 		<br><br><br><br>
 		<br><br><br><br>
 		<br><br><br><br>
